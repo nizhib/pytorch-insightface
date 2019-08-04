@@ -46,8 +46,6 @@ print(features[:5])
 
 ## Recreating the weights locally
 
-Download the original weights from
-[insightface zoo](https://github.com/deepinsight/insightface/wiki/Model-Zoo)
-and place `*.params` and `*.json` files to `resource/{model}` directories.
+Download the original [insightface zoo](https://github.com/deepinsight/insightface/wiki/Model-Zoo) weights and place `*.params` and `*.json` files to `resource/{model}`.
 
 Run `python scripts/convert.py` to convert and test pytorch weights.
